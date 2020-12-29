@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@drawable/baseline_videocam_black_24</item>
+    <item name="ic_menu_gallery" type="drawable">@drawable/baseline_mode_comment_black_24</item>
+    <item name="ic_menu_slideshow" type="drawable">@drawable/baseline_star_black_24</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+</resources>

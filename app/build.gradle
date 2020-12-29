@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.example.sgh17122019"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:11.0.4'
+    implementation 'com.google.firebase:firebase-auth:11.0.4'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.android.support:design:29.0.0'
+
+    implementation 'com.amitshekhar.android:android-networking:1.0.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.github.kk121:File-Loader:1.2'
+
+    implementation 'com.github.GrenderG:Toasty:1.4.2'
+    implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+
+    implementation 'com.github.tylersuehr7:chips-input-layout:2.3'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.15'
+
+    implementation 'com.android.volley:volley:1.1.0'
+
+    implementation 'nl.psdcompany:duo-navigation-drawer:3.0.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

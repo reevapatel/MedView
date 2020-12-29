@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    card_view_cardCornerRadius="5dp"
+    card_view_cardElevation="10dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:padding="10dp"
+            android:src="@drawable/cloud"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="PDF Document"
+            android:id="@+id/pdfNameTxt"
+            android:padding="5dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" Author --------------------"
+            android:id="@+id/authorTxt"
+            android:textColor="@color/colorAccent"
+            android:padding="5dp"
+            android:layout_below="@+id/pdfNameTxt"
+            android:layout_alignParentLeft="true"/>
+
+
+       <!--- <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignRight="@+id/pdfNameTxt"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="241dp"
+            android:layout_marginRight="-237dp"
+            android:layout_marginBottom="-52dp"
+            android:padding="5dp"
+            android:text=" Date and time"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorAccent" />-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
